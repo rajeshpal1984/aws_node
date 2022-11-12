@@ -15,6 +15,12 @@ unzip main.zip
 cp -r aws_node-main/* -d /var/www/html/
 
 */
+/*
+    sudo systemctl status httpd.service
+    sudo systemctl restart httpd.service
+    sudo systemctl reload httpd.service
+    sudo systemctl start httpd.service
+*/
 
 // Setting hostname as the localhost
 // NOTE: You can set hostname to something
