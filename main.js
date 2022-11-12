@@ -13,6 +13,7 @@ chkconfig httpd on
 wget https://github.com/rajeshpal1984/aws_node/archive/refs/heads/main.zip
 unzip main.zip
 cp -r aws_node-main/* -d /var/www/html/
+
 */
 
 // Setting hostname as the localhost
